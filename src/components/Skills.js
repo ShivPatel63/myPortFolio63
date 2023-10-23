@@ -8,7 +8,6 @@ import colorSharp from "../assets/img/color-sharp.png"
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -33,25 +32,72 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-            
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                            
+                            
+
+                        {/* <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider"> */}
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <div className="skillsbg">
+                                {/* <img src={meter1} alt="Image" /> */}
                                 <h5>Python</h5>
+                                </div>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>C++</h5>
+                                <div className="skillsbg">
+                                {/* <img src={meter2} alt="Image" /> */}
+                                <h5>Java</h5>
+                                </div>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>AWS</h5>
+                            <div className="skillsbg">
+                                {/* <img src={meter3} alt="Image" /> */}
+                                <h5>C/C++</h5>
+                                </div>
                             </div>
-                        </Carousel>
+                            <div className="item">
+                            <div className="skillsbg">
+                                {/* <img src={meter1} alt="Image" /> */}
+                                <h5>MySQL</h5>
+                                </div>
+                            </div>
+                            <div className="item">
+                            <div className="skillsbg">
+                                {/* <img src={meter1} alt="Image" /> */}
+                                <h5>NoSQL</h5>
+                                </div>
+                            </div>
+                            <div className="item">
+                            <div className="skillsbg">
+                                {/* <img src={meter1} alt="Image" /> */}
+                                <h5>ReactJs</h5>
+                                </div>
+                            </div>
+                            <div className="item">
+                            <div className="skillsbg">
+                                {/* <img src={meter1} alt="Image" /> */}
+                                <h5>NodeJs</h5>
+                                </div>
+                            </div>
+                            <div className="item">
+                            <div className="skillsbg">
+                                {/* <img src={meter1} alt="Image" /> */}
+                                <h5>Spring</h5>
+                                </div>
+                            </div>
+                            <div className="item">
+                            <div className="skillsbg">
+                                {/* <img src={meter1} alt="Image" /> */}
+                                <h5>Spring Boot</h5>
+                                </div>
+                            </div>
+                            <div className="item">
+                            <div className="skillsbg">
+                                {/* <img src={meter1} alt="Image" /> */}
+                                <h5>REST Web Services</h5>
+                                </div>
+                            </div>
+                            
+                        {/* </Carousel> */}
                     </div>
                 </div>
             </div>

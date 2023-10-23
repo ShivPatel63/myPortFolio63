@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Software Developer", "AI/ML Engineer", "MERN - Full Stack Developer" ];
+  const toRotate = [ "Software Developer"];
   const period = 2000;
 
   useEffect(() => {
@@ -55,15 +55,16 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hey ! I'm Shiv Patel.`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "AI/ML Engineer", "MERN - Full Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
+                <button id='resume'>
+                <a href="https://drive.google.com/file/d/1NbW_nAsr7PP_Se3qZG6WQuNXKP3qO-EK/view?usp=share_link" target="_blank">
+                <span className="tagline">DOWNLOAD MY RESUME</span>
+                </a>
+                </button>
+                <h1>{`Hey ! I'm Shiv Patel.`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer"]'><span className="wrap">{text}</span></span></h1>
                   {/* /<p>I am creative full stack web Developer! I am enthusiastic and passionate about my work.I have done my masters in computer science.</p> */}
-                  <p>Software Developer with 3+ years of experience spanning industries such as education, supply chain
-                    management, and web development; proficient in software development domains including MERN full-stack and Data Science/Machine learning, with a robust portfolio of projects.
-                    Developer with expertise in programming languages (JavaScript, Python, JAVA), frameworks and libraries
-                    (React, Redux, Express.js, Spring, Spring boot), and cloud services (AWS, MongoDB Atlas), demonstrating a strong foundation in software
-                    development and architecture.
+                  <p>Experienced Software Developer with a proven track record across diverse industries, including education, consulting, and digital marketing. Proficient in full-stack development, spanning both front-end and back-end. Currently engaged in pioneering research focused on textual similarity and document matching using Machine Learning - NLP, in addition to creating a cutting-edge Selenium automation bot.
                   </p>
+                  
                   <button onClick={() => console.log('connect')}><a href="mailto:patel.shiv6320@gmail.com">Let’s Connect <ArrowRightCircle size={25} /></a></button>
               </div>}
             </TrackVisibility>

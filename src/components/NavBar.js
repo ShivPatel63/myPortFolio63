@@ -54,6 +54,8 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/shiv-patel-135a601b6/" target="_blank"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/ShivPatel63" target="_blank"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/shivay__63/" target="_blank"><img src={navIcon3} alt="" /></a>
+                {/* <img src="C:\Users\patel\Desktop\Shivay\Resumes\Portfolios\myPortFolio-main\src\assets\img\Monkey - Copy.jpg" /> */}
+                {/* <img src={navIcon3} alt="" /> */}
               </div>
     
             </span>
