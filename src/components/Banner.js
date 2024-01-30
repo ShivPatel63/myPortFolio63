@@ -56,15 +56,16 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <button id='resume'>
-                <a href="https://drive.google.com/file/d/1NbW_nAsr7PP_Se3qZG6WQuNXKP3qO-EK/view?usp=share_link" target="_blank">
+                <a href="https://drive.google.com/file/d/1QF-6Pn7NNH6feKDS6zYHOtMdHz_zbYGA/view?usp=sharing" target="_blank">
                 <span className="tagline">DOWNLOAD MY RESUME</span>
                 </a>
                 </button>
                 <h1>{`Hey ! I'm Shiv Patel.`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer"]'><span className="wrap">{text}</span></span></h1>
                   {/* /<p>I am creative full stack web Developer! I am enthusiastic and passionate about my work.I have done my masters in computer science.</p> */}
-                  <p>Experienced Software Developer with a proven track record across diverse industries, including education, consulting, and digital marketing. Proficient in full-stack development, spanning both front-end and back-end. Currently engaged in pioneering research focused on textual similarity and document matching using Machine Learning - NLP, in addition to creating a cutting-edge Selenium automation bot.
-                  </p>
-                  
+                  {/* <p>Experienced Software Developer with a proven track record across diverse industries, including education, consulting, and digital marketing. Proficient in full-stack development, spanning both front-end and back-end. Currently engaged in pioneering research focused on textual similarity and document matching using Machine Learning - NLP, in addition to creating a cutting-edge Selenium automation bot.</p> */}
+                  <p>I am software developer with approximately 3 years of experience in design, development, analysis and troubleshooting web applications in various domains like education, consulting, and digital marketing. Proficient in full-stack development, spanning both front-end and back-end with robust understanding of Data Structures and Algorithms. 
+
+Currently engaged in pioneering research focused on textual similarity and document matching using Machine Learning - NLP, in addition to creating a cutting-edge Selenium automation bot.</p>                  
                   <button onClick={() => console.log('connect')}><a href="mailto:patel.shiv6320@gmail.com">Let’s Connect <ArrowRightCircle size={25} /></a></button>
               </div>}
             </TrackVisibility>

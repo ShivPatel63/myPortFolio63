@@ -13,9 +13,9 @@ export const Footer = () => {
           
          
           <Col lg={12} className="text-center">
-          
+          <button onClick={() => console.log('connect')}><a href="mailto:patel.shiv6320@gmail.com">Let’s Connect <ArrowRightCircle size={25} /></a></button>
             <div className="social-icon">
-            
+              
                 <a href="https://www.linkedin.com/in/shiv-patel-63ce/" target="_blank"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/ShivPatel63" target="_blank"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/shivay__63/" target="_blank"><img src={navIcon3} alt="" /></a>
