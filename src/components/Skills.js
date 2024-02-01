@@ -32,7 +32,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                    <h5>I excel in Java - Full Stack, Spring & Spring boot, Hibernate, Microservices, Rest APIs, MERN Stack, Python, Selenium Automation and NLP – Machine learning, Agile, SDLC, Data Structures and Algorithms.</h5>
+                    {/* <h5>I excel in Java - Full Stack, Spring & Spring boot, Hibernate, Microservices, Rest APIs, MERN Stack, Python, Selenium Automation and NLP – Machine learning, Agile, SDLC, Data Structures and Algorithms.</h5> */}
 
                         {/* <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider"> */}
                             <div className="item">
