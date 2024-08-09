@@ -44,49 +44,19 @@ export const Skills = () => {
                             <div className="item">
                                 <div className="skillsbg">
                                 {/* <img src={meter2} alt="Image" /> */}
-                                <h5>Python</h5>
+                                <h5>Spring</h5>
                                 </div>
                             </div>
                             <div className="item">
                             <div className="skillsbg">
                                 {/* <img src={meter3} alt="Image" /> */}
-                                <h5>C/C++</h5>
+                                <h5>Spring Boot</h5>
                                 </div>
                             </div>
                             <div className="item">
                             <div className="skillsbg">
                                 {/* <img src={meter1} alt="Image" /> */}
-                                <h5>MySQL</h5>
-                                </div>
-                            </div>
-                            <div className="item">
-                            <div className="skillsbg">
-                                {/* <img src={meter1} alt="Image" /> */}
-                                <h5>NoSQL</h5>
-                                </div>
-                            </div>
-                            <div className="item">
-                            <div className="skillsbg">
-                                {/* <img src={meter1} alt="Image" /> */}
-                                <h5>ReactJs</h5>
-                                </div>
-                            </div>
-                            <div className="item">
-                            <div className="skillsbg">
-                                {/* <img src={meter1} alt="Image" /> */}
-                                <h5>NodeJs</h5>
-                                </div>
-                            </div>
-                            <div className="item">
-                            <div className="skillsbg">
-                                {/* <img src={meter1} alt="Image" /> */}
-                                <h5>Micro Services</h5>
-                                </div>
-                            </div>
-                            <div className="item">
-                            <div className="skillsbg">
-                                {/* <img src={meter1} alt="Image" /> */}
-                                <h5>Spring & Spring Boot</h5>
+                                <h5>REST API</h5>
                                 </div>
                             </div>
                             <div className="item">
@@ -98,7 +68,37 @@ export const Skills = () => {
                             <div className="item">
                             <div className="skillsbg">
                                 {/* <img src={meter1} alt="Image" /> */}
-                                <h5>REST Web Services</h5>
+                                <h5>Microservices</h5>
+                                </div>
+                            </div>
+                            <div className="item">
+                            <div className="skillsbg">
+                                {/* <img src={meter1} alt="Image" /> */}
+                                <h5>ReactJS</h5>
+                                </div>
+                            </div>
+                            <div className="item">
+                            <div className="skillsbg">
+                                {/* <img src={meter1} alt="Image" /> */}
+                                <h5>Cloud</h5>
+                                </div>
+                            </div>
+                            <div className="item">
+                            <div className="skillsbg">
+                                {/* <img src={meter1} alt="Image" /> */}
+                                <h5>Kafka</h5>
+                                </div>
+                            </div>
+                            <div className="item">
+                            <div className="skillsbg">
+                                {/* <img src={meter1} alt="Image" /> */}
+                                <h5>CI/CD</h5>
+                                </div>
+                            </div>
+                            <div className="item">
+                            <div className="skillsbg">
+                                {/* <img src={meter1} alt="Image" /> */}
+                                <h5>Web Services</h5>
                                 </div>
                             </div>
                             
